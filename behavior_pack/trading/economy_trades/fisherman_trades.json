@@ -285,41 +285,43 @@
                       "item": "minecraft:oak_boat",
                       "quantity": 1,
                       "price_multiplier": 0.05,
-                      "filters": { "test": "is_mark_variant", "subject": "self", "value": 0, "operator": "="}
+                      "biomes": [
+                        "plains"
+                      ]
                     },
                     {
                       "item": "minecraft:spruce_boat",
                       "quantity": 1,
                       "price_multiplier": 0.05,
-                      "filters": {
-                        "any_of": [
-                          { "test": "is_mark_variant", "subject": "self", "value": 4, "operator": "="},
-                          { "test": "is_mark_variant", "subject": "self", "value": 6, "operator": "="}
-                        ]
-                      }
+                      "biomes": [
+                        "snow",
+                        "taiga"
+                      ]
                     },
                     {
                       "item": "minecraft:jungle_boat",
                       "quantity": 1,
                       "price_multiplier": 0.05,
-                      "filters": {
-                        "any_of": [
-                          { "test": "is_mark_variant", "subject": "self", "value": 1, "operator": "="},
-                          { "test": "is_mark_variant", "subject": "self", "value": 2, "operator": "="}
-                        ]
-                      }
+                      "biomes": [
+                        "desert",
+                        "jungle"
+                      ]
                     },
                     {
                       "item": "minecraft:acacia_boat",
                       "quantity": 1,
                       "price_multiplier": 0.05,
-                      "filters": { "test": "is_mark_variant", "subject": "self", "value": 3, "operator": "="}
+                      "biomes": [
+                        "savannah"
+                      ]
                     },
                     {
                       "item": "minecraft:dark_oak_boat",
                       "quantity": 1,
                       "price_multiplier": 0.05,
-                      "filters": { "test": "is_mark_variant", "subject": "self", "value": 5, "operator": "="}
+                      "biomes": [
+                        "swamp"
+                      ]
                     }
                   ]
                 }

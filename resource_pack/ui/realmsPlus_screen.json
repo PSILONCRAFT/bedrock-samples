@@ -175,20 +175,7 @@
                 "$child_control": "realmsPlus.realmsPlus_screen_main_panel",
                 "$back_button_has_title": true,
                 "$sidebar_ignore_page_loading": true,
-                "variables": [
-                  {
-                    "requires": "(not $pre_release)",
-                    "$button_text": "store.realmsPlus"
-                  },
-                  {
-                    "requires": "($pre_release and not $beta_build)",
-                    "$button_text": "store.realmsPreview"
-                  },
-                  {
-                    "requires": "($pre_release and $beta_build)",
-                    "$button_text": "store.realmsBeta"
-                  }
-                ]
+                "$button_text": "store.realmsPlus"
               }
             }
           ]
@@ -374,20 +361,7 @@
   "realmsPlus_toggle@realmsPlus.toggle_base": {
     "$toggle_view_binding_name": "realmsPlus_toggle",
     "$toggle_group_forced_index": "$realmsPlus_toggle_index",
-    "variables": [
-      {
-        "requires": "(not $pre_release)",
-        "$button_text": "store.realmsPlus"
-      },
-      {
-        "requires": "($pre_release and not $beta_build)",
-        "$button_text": "store.realmsPreview"
-      },
-      {
-        "requires": "($pre_release and $beta_build)",
-        "$button_text": "store.realmsBeta"
-      }
-    ],
+    "$button_text": "store.realmsPlus",
     "$focus_override_up": "search_header_text_box"
   },
 

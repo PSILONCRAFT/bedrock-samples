@@ -252,14 +252,9 @@
                "is_read_only" : true,
                "name" : "container",
                "type" : {
-                  "is_bind_type" : false,
+                  "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "optional",
-                  "optional_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "Container"
-                  }
+                  "name" : "Container"
                }
             }
          ],
@@ -535,14 +530,9 @@
                "name" : "addItem",
                "privilege" : "none",
                "return_type" : {
-                  "is_bind_type" : false,
+                  "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "optional",
-                  "optional_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "ItemStack"
-                  }
+                  "name" : "ItemStack"
                }
             },
             {
@@ -777,14 +767,9 @@
                "name" : "transferItem",
                "privilege" : "none",
                "return_type" : {
-                  "is_bind_type" : false,
+                  "is_bind_type" : true,
                   "is_errorable" : true,
-                  "name" : "optional",
-                  "optional_type" : {
-                     "is_bind_type" : true,
-                     "is_errorable" : false,
-                     "name" : "ItemStack"
-                  }
+                  "name" : "ItemStack"
                }
             }
          ],
@@ -4534,7 +4519,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "soundId",
+                     "name" : "soundID",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5071,7 +5056,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "trackId",
+                     "name" : "trackID",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5109,7 +5094,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "soundId",
+                     "name" : "soundID",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5156,7 +5141,7 @@
                "arguments" : [
                   {
                      "details" : null,
-                     "name" : "trackId",
+                     "name" : "trackID",
                      "type" : {
                         "is_bind_type" : false,
                         "is_errorable" : false,
@@ -5327,13 +5312,7 @@
       }
    ],
    "constants" : [],
-   "dependencies" : [
-      {
-         "name" : "@minecraft/common",
-         "uuid" : "77ec12b4-1b2b-4c98-8d34-d1cd63f849d5",
-         "version" : "1.0.0"
-      }
-   ],
+   "dependencies" : [],
    "enums" : [
       {
          "constants" : [
@@ -6852,7 +6831,7 @@
          }
       }
    ],
-   "minecraft_version" : "1.20.40-beta.24",
+   "minecraft_version" : "1.20.30-beta.0",
    "module_type" : "script",
    "name" : "@minecraft/server",
    "objects" : [

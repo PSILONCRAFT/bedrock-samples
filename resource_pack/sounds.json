@@ -3233,12 +3233,7 @@
                   "volume" : 0.450
                },
                "purr" : "mob.cat.purr",
-               "purreow" : "mob.cat.purreow",
-               "tempt" : {
-                  "pitch" : 1.0,
-                  "sound" : "mob.cat.beg_for_food",
-                  "volume" : 0.70
-               }
+               "purreow" : "mob.cat.purreow"
             },
             "pitch" : [ 0.80, 1.20 ],
             "volume" : 1.0
@@ -3409,7 +3404,6 @@
                "ambient.in.water" : "mob.elderguardian.idle",
                "death" : "mob.elderguardian.death",
                "death.in.water" : "mob.elderguardian.death",
-               "flop" : "mob.guardian.flop",
                "guardian.flop" : {
                   "pitch" : 1.0,
                   "sound" : "mob.guardian.flop",
@@ -3566,7 +3560,6 @@
                "ambient.in.water" : "mob.guardian.ambient",
                "death" : "mob.guardian.land_death",
                "death.in.water" : "mob.guardian.death",
-               "flop" : "mob.guardian.flop",
                "guardian.flop" : {
                   "pitch" : 1.0,
                   "sound" : "mob.guardian.flop",
@@ -4153,10 +4146,6 @@
                },
                "hurt" : "game.player.hurt",
                "hurt.in.water" : "game.player.hurt",
-               "splash" : {
-                  "pitch" : [ 0.60, 1.40 ],
-                  "sound" : "entity.generic.splash"
-               },
                "throw" : {
                   "pitch" : [ 0.330, 0.50 ],
                   "sound" : "random.bow",
@@ -4772,25 +4761,11 @@
          },
          "wither_skeleton" : {
             "events" : {
-               "ambient" : {
-                  "pitch" : [ 0.80, 1.20 ],
-                  "sound" : "entity.wither_skeleton.ambient",
-                  "volume" : 1.0
-               },
-               "death" : {
-                  "pitch" : [ 0.80, 1.20 ],
-                  "sound" : "entity.wither_skeleton.death",
-                  "volume" : 1.0
-               },
+               "ambient" : "mob.skeleton.say",
+               "death" : "mob.skeleton.death",
                "hurt" : {
-                  "pitch" : [ 0.80, 1.20 ],
-                  "sound" : "entity.wither_skeleton.hurt",
-                  "volume" : 1.0
-               },
-               "sound" : {
-                  "pitch" : 1.0,
-                  "sound" : "entity.wither_skeleton.step",
-                  "volume" : 0.150
+                  "sound" : "mob.skeleton.hurt",
+                  "volume" : 0.70
                },
                "step" : {
                   "pitch" : 1.0,
@@ -5360,17 +5335,7 @@
          "bottle.dragonbreath" : {
             "pitch" : 1.0,
             "sound" : "bottle.dragonbreath",
-            "volume" : 1.0
-         },
-         "bottle.empty" : {
-            "pitch" : 1.0,
-            "sound" : "bottle.empty",
-            "volume" : 1.0
-         },
-         "bottle.fill" : {
-            "pitch" : 1.0,
-            "sound" : "bottle.fill",
-            "volume" : 1.0
+            "volume" : 0.70
          },
          "bow" : {
             "pitch" : [ 0.830, 1.250 ],
@@ -5685,42 +5650,42 @@
          "horn_call0" : {
             "pitch" : 1.0,
             "sound" : "horn.call.0",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call1" : {
             "pitch" : 1.0,
             "sound" : "horn.call.1",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call2" : {
             "pitch" : 1.0,
             "sound" : "horn.call.2",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call3" : {
             "pitch" : 1.0,
             "sound" : "horn.call.3",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call4" : {
             "pitch" : 1.0,
             "sound" : "horn.call.4",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call5" : {
             "pitch" : 1.0,
             "sound" : "horn.call.5",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call6" : {
             "pitch" : 1.0,
             "sound" : "horn.call.6",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "horn_call7" : {
             "pitch" : 1.0,
             "sound" : "horn.call.7",
-            "volume" : 16.0
+            "volume" : 1.0
          },
          "ignite" : {
             "pitch" : [ 0.80, 1.20 ],
